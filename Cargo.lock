@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "SynacorChallenge"
-version = "0.1.0"
-dependencies = [
- "itertools",
-]
-
-[[package]]
 name = "either"
 version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -22,4 +15,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "69ddb889f9d0d08a67338271fa9b62996bc788c7796a5c18cf057420aaed5eaf"
 dependencies = [
  "either",
+]
+
+[[package]]
+name = "synacor_challenge"
+version = "0.1.0"
+dependencies = [
+ "itertools",
 ]
